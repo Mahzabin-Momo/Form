@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="takevalue()">
+        <h1>Registration Form</h1>
+        <input type="text" name="Name" placeholder="Your name" , id="name"><br>
+        <br>
+        <input type="number" name="Mobile" placeholder="Your mobile no" , id="mobile"><br>
+        <br>
+        <input type="password" name="password" placeholder="Your password" , id="password"><br>
+        <br>
+        <input type="submit" value="submit"
+        value="Signup">
+
+    </form>
+    <script>
+        function takevalue(){
+            var name = document.getElementById
+            ("name").value;
+
+            var mobile = document.getElementById
+            ("mobile").value;
+
+            var password = document.getElementById
+            ("password").value;
+
+            document.write("Your name is = " + name+"<br>");
+
+            document.write("Your mobile no is = " + mobile+"<br>");
+
+            document.write("Your password is = " + password+"<br>");
+        }
+    </script>
+    
+</body>
+</html>
